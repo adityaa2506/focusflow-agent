@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Idle Status</title>
+    <style>
+        /* Make the entire page transparent */
+        body {
+            background-color: transparent;
+            margin: 0;
+            padding: 0;
+            overflow: hidden; /* Hide scrollbars */
+        }
+        /* Style the text container */
+        .idle-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100vw;
+            height: 100vh;
+            color: red;
+            font-size: 15vw; /* Font size relative to viewport width */
+            font-weight: bold;
+            font-family: sans-serif;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+            opacity: 0.7; /* Make the text slightly transparent */
+        }
+    </style>
+</head>
+<body>
+    <div class="idle-container">
+        IDLE
+    </div>
+</body>
+</html>
